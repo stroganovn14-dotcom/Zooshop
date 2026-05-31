@@ -1,0 +1,20 @@
+﻿ZooShop
+
+
+winexe
+C#
+.cs
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\obj\Debug\net8.0-windows\
+ZooShop
+none
+false
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\App.xaml
+131173076398
+
+47746063337
+260889244106
+Resources\Converters.xaml;Resources\ProductCardTemplate.xaml;Resources\Styles.xaml;Views\LoginWindow.xaml;Views\LogoutDialog.xaml;Views\MainWindow.xaml;Views\Pages\AnimalsPage.xaml;Views\Pages\DashboardPage.xaml;Views\Pages\DeliveriesPage.xaml;Views\Pages\ProductsPage.xaml;Views\Pages\ReportsPage.xaml;Views\Pages\SalesPage.xaml;Views\Pages\StaffPage.xaml;
+
+False
+
