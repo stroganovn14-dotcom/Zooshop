@@ -1,0 +1,394 @@
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\appsettings.json
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Images\aquarium.webp
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Images\dreamis.webp
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Images\dzhungarskiy.jpg
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Images\i.webp
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Images\karlikoviybaran.jpg
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Images\lezhanka.webp
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Images\mainkun.jpg
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Images\mish.webp
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Images\napolnitel.webp
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Images\popugaivolnistiy.jpg
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Images\purina-proplan.webp
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Images\readme.txt
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Images\retriver.webp
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Images\royal-canin.png
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Images\shotlandec.webp
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Images\vitamins-grizuni.webp
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\ZooShop.exe
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\ZooShop.dll.config
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\ZooShop.deps.json
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\ZooShop.runtimeconfig.json
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\ZooShop.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\ZooShop.pdb
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Azure.Core.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Azure.Identity.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\CommunityToolkit.Mvvm.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Humanizer.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Diagnostics.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Hosting.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Console.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.EventLog.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.EventSource.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.Identity.Client.NativeInterop.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Mono.TextTemplating.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\System.Composition.AttributedModel.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\System.Composition.Convention.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\System.Composition.Runtime.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\System.Composition.TypedParts.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\System.Memory.Data.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\Wpf.Ui.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\runtimes\win-arm64\native\msalruntime_arm64.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\runtimes\win-x64\native\msalruntime.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\runtimes\win-x86\native\msalruntime_x86.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\obj\Debug\net8.0-windows\zooshop.csproj.AssemblyReference.cache
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\obj\Debug\net8.0-windows\Resources\Styles.baml
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\obj\Debug\net8.0-windows\Views\LoginWindow.baml
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\obj\Debug\net8.0-windows\Views\LogoutDialog.baml
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\obj\Debug\net8.0-windows\Views\MainWindow.baml
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\obj\Debug\net8.0-windows\Views\Pages\DashboardPage.baml
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\obj\Debug\net8.0-windows\Views\Pages\DeliveriesPage.baml
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\obj\Debug\net8.0-windows\Views\Pages\ProductsPage.baml
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\obj\Debug\net8.0-windows\Views\Pages\ReportsPage.baml
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\obj\Debug\net8.0-windows\Views\Pages\SalesPage.baml
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\obj\Debug\net8.0-windows\App.baml
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\obj\Debug\net8.0-windows\Views\LoginWindow.g.cs
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\obj\Debug\net8.0-windows\Views\LogoutDialog.g.cs
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\obj\Debug\net8.0-windows\Views\MainWindow.g.cs
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\obj\Debug\net8.0-windows\Views\Pages\AnimalsPage.g.cs
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\obj\Debug\net8.0-windows\Views\Pages\DashboardPage.g.cs
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\obj\Debug\net8.0-windows\Views\Pages\DeliveriesPage.g.cs
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\obj\Debug\net8.0-windows\Views\Pages\ProductsPage.g.cs
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\obj\Debug\net8.0-windows\Views\Pages\ReportsPage.g.cs
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\obj\Debug\net8.0-windows\Views\Pages\SalesPage.g.cs
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\obj\Debug\net8.0-windows\Views\Pages\StaffPage.g.cs
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\obj\Debug\net8.0-windows\ZooShop_MarkupCompile.cache
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\obj\Debug\net8.0-windows\ZooShop_MarkupCompile.lref
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\obj\Debug\net8.0-windows\Resources\Converters.baml
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\obj\Debug\net8.0-windows\Resources\ProductCardTemplate.baml
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\obj\Debug\net8.0-windows\Views\Pages\AnimalsPage.baml
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\obj\Debug\net8.0-windows\Views\Pages\StaffPage.baml
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\obj\Debug\net8.0-windows\ZooShop.g.resources
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\obj\Debug\net8.0-windows\ZooShop.Properties.Resources.resources
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\obj\Debug\net8.0-windows\zooshop.csproj.GenerateResource.cache
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\obj\Debug\net8.0-windows\zooshop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\obj\Debug\net8.0-windows\zooshop.csproj.CoreCompileInputs.cache
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\obj\Debug\net8.0-windows\zooshop.csproj.Up2Date
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\obj\Debug\net8.0-windows\ZooShop.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\obj\Debug\net8.0-windows\refint\ZooShop.dll
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\obj\Debug\net8.0-windows\ZooShop.pdb
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\obj\Debug\net8.0-windows\zooshop.genruntimeconfig.cache
+C:\Users\KDFX Modes\source\repos\zooshop proj\zooshop\obj\Debug\net8.0-windows\ref\ZooShop.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\appsettings.json
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Images\aquarium.webp
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Images\dreamis.webp
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Images\dzhungarskiy.jpg
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Images\i.webp
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Images\karlikoviybaran.jpg
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Images\lezhanka.webp
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Images\mainkun.jpg
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Images\mish.webp
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Images\napolnitel.webp
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Images\popugaivolnistiy.jpg
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Images\purina-proplan.webp
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Images\readme.txt
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Images\retriver.webp
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Images\royal-canin.png
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Images\shotlandec.webp
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Images\vitamins-grizuni.webp
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\ZooShop.exe
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\ZooShop.dll.config
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\ZooShop.deps.json
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\ZooShop.runtimeconfig.json
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\ZooShop.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\ZooShop.pdb
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Azure.Core.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Azure.Identity.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\CommunityToolkit.Mvvm.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Humanizer.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Diagnostics.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Hosting.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Console.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.EventLog.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.EventSource.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.Identity.Client.NativeInterop.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Mono.TextTemplating.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\System.Composition.AttributedModel.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\System.Composition.Convention.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\System.Composition.Runtime.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\System.Composition.TypedParts.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\System.Memory.Data.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\Wpf.Ui.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\runtimes\win-arm64\native\msalruntime_arm64.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\runtimes\win-x64\native\msalruntime.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\runtimes\win-x86\native\msalruntime_x86.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\obj\Debug\net8.0-windows\zooshop.csproj.AssemblyReference.cache
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\obj\Debug\net8.0-windows\Resources\Styles.baml
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\obj\Debug\net8.0-windows\Views\LoginWindow.baml
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\obj\Debug\net8.0-windows\Views\LogoutDialog.baml
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\obj\Debug\net8.0-windows\Views\MainWindow.baml
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\obj\Debug\net8.0-windows\Views\Pages\DashboardPage.baml
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\obj\Debug\net8.0-windows\Views\Pages\DeliveriesPage.baml
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\obj\Debug\net8.0-windows\Views\Pages\ProductsPage.baml
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\obj\Debug\net8.0-windows\Views\Pages\ReportsPage.baml
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\obj\Debug\net8.0-windows\Views\Pages\SalesPage.baml
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\obj\Debug\net8.0-windows\App.baml
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\obj\Debug\net8.0-windows\Views\LoginWindow.g.cs
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\obj\Debug\net8.0-windows\Views\LogoutDialog.g.cs
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\obj\Debug\net8.0-windows\Views\MainWindow.g.cs
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\obj\Debug\net8.0-windows\Views\Pages\AnimalsPage.g.cs
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\obj\Debug\net8.0-windows\Views\Pages\DashboardPage.g.cs
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\obj\Debug\net8.0-windows\Views\Pages\DeliveriesPage.g.cs
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\obj\Debug\net8.0-windows\Views\Pages\ProductsPage.g.cs
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\obj\Debug\net8.0-windows\Views\Pages\ReportsPage.g.cs
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\obj\Debug\net8.0-windows\Views\Pages\SalesPage.g.cs
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\obj\Debug\net8.0-windows\Views\Pages\StaffPage.g.cs
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\obj\Debug\net8.0-windows\ZooShop_MarkupCompile.cache
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\obj\Debug\net8.0-windows\ZooShop_MarkupCompile.lref
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\obj\Debug\net8.0-windows\Resources\Converters.baml
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\obj\Debug\net8.0-windows\Resources\ProductCardTemplate.baml
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\obj\Debug\net8.0-windows\Views\Pages\AnimalsPage.baml
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\obj\Debug\net8.0-windows\Views\Pages\StaffPage.baml
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\obj\Debug\net8.0-windows\ZooShop.g.resources
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\obj\Debug\net8.0-windows\ZooShop.Properties.Resources.resources
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\obj\Debug\net8.0-windows\zooshop.csproj.GenerateResource.cache
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\obj\Debug\net8.0-windows\zooshop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\obj\Debug\net8.0-windows\zooshop.csproj.CoreCompileInputs.cache
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\obj\Debug\net8.0-windows\zooshop.csproj.Up2Date
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\obj\Debug\net8.0-windows\ZooShop.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\obj\Debug\net8.0-windows\refint\ZooShop.dll
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\obj\Debug\net8.0-windows\ZooShop.pdb
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\obj\Debug\net8.0-windows\zooshop.genruntimeconfig.cache
+C:\Users\Никита\OneDrive\Рабочий стол\проект\zooshop\obj\Debug\net8.0-windows\ref\ZooShop.dll

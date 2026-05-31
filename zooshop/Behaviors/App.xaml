@@ -1,0 +1,35 @@
+<!--
+    App.xaml
+    Точка входа WPF-приложения.
+    StartupUri убран — запуск окна через App.xaml.cs + DI.
+-->
+<Application
+    x:Class="ZooShop.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <!-- WPF-UI темы -->
+                <ui:ThemesDictionary Theme="Light"/>
+                <ui:ControlsDictionary/>
+
+                <!-- Конвертеры — должны быть до шаблонов, чтобы StaticResource работал -->
+                <ResourceDictionary Source="/Resources/Converters.xaml"/>
+
+                <!-- Стили и шаблоны -->
+                <ResourceDictionary Source="/Resources/Styles.xaml"/>
+                <ResourceDictionary Source="/Resources/ProductCardTemplate.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+        <SolidColorBrush x:Key="AppSidebarBg"      Color="#C8E6C9"/>
+        <SolidColorBrush x:Key="AppNavHoverBg"     Color="#A5D6A7"/>
+        <SolidColorBrush x:Key="AppNavSelectedBg"  Color="#81C784"/>
+        <SolidColorBrush x:Key="AppPageBg"         Color="#F1F8F2"/>
+        <SolidColorBrush x:Key="AppAccentBrush"    Color="#4CAF50"/>
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

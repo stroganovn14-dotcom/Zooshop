@@ -1,0 +1,125 @@
+<Page
+    x:Class="ZooShop.Views.Pages.StaffPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+    xmlns:models="clr-namespace:ZooShop.Models"
+    Style="{StaticResource FadeInPage}"
+    Title="Персонал">
+
+    <Grid Margin="24,16,24,24">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="340"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0" Margin="0,0,16,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0" Margin="0,0,0,12">
+                <TextBlock Text="Персонал" Style="{StaticResource PageTitleStyle}"                           VerticalAlignment="Center"/>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <ui:Button Content="Новый сотрудник"
+                               Icon="{ui:SymbolIcon PersonAdd24}"
+                               Command="{Binding CreateNewCommand}"
+                               Margin="0,0,8,0"/>
+                    <ui:Button Content="Обновить"
+                               Icon="{ui:SymbolIcon ArrowClockwise24}"
+                               Command="{Binding LoadStaffCommand}"
+                               Appearance="Secondary"/>
+                </StackPanel>
+            </Grid>
+
+            <ui:DataGrid Grid.Row="1"
+                         ItemsSource="{Binding Staff}"
+                         SelectedItem="{Binding SelectedUser}"
+                         AutoGenerateColumns="False"
+                         IsReadOnly="True"
+                         CanUserSortColumns="True"
+                         GridLinesVisibility="Horizontal"
+                         SelectionMode="Single">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="ФИО"    Foreground="Black"    Binding="{Binding FullName}"  Width="2*"/>
+                    <DataGridTextColumn Header="Логин"  Foreground="Black"    Binding="{Binding Login}"    Width="*"/>
+                    <DataGridTextColumn Header="Роль"    Foreground="Black"   Binding="{Binding Role}"     Width="*"/>
+                    <DataGridTextColumn Header="Ранг"    Foreground="Black"   Binding="{Binding Rank}"     Width="60"/>
+                </DataGrid.Columns>
+            </ui:DataGrid>
+        </Grid>
+
+        <Border Grid.Column="1" Style="{StaticResource FormCardStyle}" VerticalAlignment="Top">
+            <StackPanel>
+                <TextBlock FontSize="16" Foreground="Black" FontWeight="SemiBold" Margin="0,0,0,4">
+                    <TextBlock.Style>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="Text" Value="Новый сотрудник"/>
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding SelectedUser}" Value="{x:Null}">
+                                    <Setter Property="Text" Value="Новый сотрудник"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </TextBlock.Style>
+                </TextBlock>
+
+                <ui:InfoBar IsOpen="{Binding CanEditSelected,
+                                Converter={StaticResource InverseBoolConverter}}"
+                            Severity="Warning"
+                            Title="Недостаточно прав для редактирования"
+                            IsClosable="False"
+                            Margin="0,8,0,12"
+                            Visibility="{Binding SelectedUser,
+                                Converter={StaticResource NotNullToVisibilityConverter}}"/>
+
+                <TextBlock Text="ФИО" Foreground="Black" Style="{StaticResource FieldLabelStyle}"/>
+                <ui:TextBox Text="{Binding EditFullName, UpdateSourceTrigger=PropertyChanged}"
+                            PlaceholderText="Фамилия Имя Отчество"
+                            IsEnabled="{Binding CanEditSelected}"
+                            Margin="0,0,0,12"/>
+
+                <TextBlock Text="Логин" Foreground="Black" Style="{StaticResource FieldLabelStyle}"/>
+                <ui:TextBox Text="{Binding EditLogin, UpdateSourceTrigger=PropertyChanged}"
+                            PlaceholderText="Уникальный логин"
+                            IsEnabled="{Binding CanEditSelected}"
+                            Margin="0,0,0,12"/>
+
+                <TextBlock Text="Пароль (оставьте пустым чтобы не менять)"                           Style="{StaticResource FieldLabelStyle}"/>
+                <ui:PasswordBox x:Name="PwdBox"
+                                Password="{Binding EditPassword, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                PlaceholderText="Новый пароль"
+                                IsEnabled="{Binding CanEditSelected}"
+                                Margin="0,0,0,12"/>
+
+                <TextBlock Text="Роль" Style="{StaticResource FieldLabelStyle}" Foreground="Black"/>
+                <ComboBox ItemsSource="{Binding AvailableRoles}"
+                          SelectedItem="{Binding EditRole}"
+                          IsEnabled="{Binding CanEditSelected}"
+                          Margin="0,0,0,16"
+                          HorizontalAlignment="Stretch"/>
+
+                <TextBlock Text="{Binding StatusMessage}"
+                           Style="{StaticResource StatusSuccessStyle}"
+                           Visibility="{Binding StatusMessage,
+                               Converter={StaticResource NotNullToVisibilityConverter}}"
+                           Margin="0,0,0,12"
+                           TextWrapping="Wrap"/>
+
+                <StackPanel Orientation="Horizontal">
+                    <ui:Button Content="Сохранить"
+                               Appearance="Primary"
+                               Command="{Binding SaveUserCommand}"
+                               Margin="0,0,8,0"/>
+                    <ui:Button Content="Удалить"
+                               Appearance="Danger"
+                               IsEnabled="{Binding CanEditSelected}"
+                               Command="{Binding DeleteUserCommand}"
+                               Visibility="{Binding SelectedUser,
+                                   Converter={StaticResource NotNullToVisibilityConverter}}"/>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Page>

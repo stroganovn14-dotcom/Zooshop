@@ -1,0 +1,82 @@
+<Page
+    x:Class="ZooShop.Views.Pages.DashboardPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+    Style="{StaticResource FadeInPage}"
+    Title="Главная">
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <StackPanel Margin="32,24,32,32">
+
+            <Border CornerRadius="14" Padding="26,20" Margin="0,0,0,28"
+                    BorderBrush="{DynamicResource CardStrokeColorDefaultBrush}" BorderThickness="1"
+                    Background="{DynamicResource CardBackgroundFillColorDefaultBrush}">
+                <Grid>
+                    <StackPanel>
+                        <TextBlock Text="Любимый питомец" FontSize="26" FontWeight="Bold"/>
+                        <TextBlock Text="Добро пожаловать в систему управления"
+                                   FontSize="13" Opacity="0.5" Margin="0,4,0,0"/>
+                    </StackPanel>
+                    <ui:SymbolIcon Symbol="AnimalCat24" FontSize="60"
+                                   Opacity="0.06"
+                                   HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                </Grid>
+            </Border>
+
+            <TextBlock Text="СВОДКА" FontSize="11" FontWeight="SemiBold"
+                       Opacity="0.4" Margin="0,0,0,12"/>
+
+            <WrapPanel Orientation="Horizontal">
+
+                <Border Style="{StaticResource FormCardStyle}" Width="200" Margin="0,0,16,16"
+                        Background="{DynamicResource AppSidebarBg}">
+                    <StackPanel>
+                        <ui:SymbolIcon Symbol="Box24" FontSize="28"
+                                       Foreground="{DynamicResource AppAccentBrush}"
+                                       Margin="0,0,0,10"/>
+                        <TextBlock Text="{Binding TotalProducts}" FontSize="32" FontWeight="Bold" TextAlignment="Center"
+                                   Foreground="{DynamicResource AppAccentBrush}"/>
+                        <TextBlock Text="Товаров на складе" FontSize="12" Opacity="0.55" Margin="0,5,0,0" TextAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+
+                <Border Style="{StaticResource FormCardStyle}" Width="200" Margin="0,0,16,16"
+                        Background="{DynamicResource AppSidebarBg}">
+                    <StackPanel>
+                        <ui:SymbolIcon Symbol="AnimalCat24" FontSize="28"
+                                       Foreground="{DynamicResource AppAccentBrush}"
+                                       Margin="0,0,0,10"/>
+                        <TextBlock Text="{Binding TotalAnimals}" FontSize="32" FontWeight="Bold" TextAlignment="Center"
+                                   Foreground="{DynamicResource AppAccentBrush}"/>
+                        <TextBlock Text="Животных в наличии" FontSize="12" Opacity="0.55" Margin="0,5,0,0" TextAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+
+                <Border Style="{StaticResource FormCardStyle}" Width="200" Margin="0,0,16,16"
+                        Background="{DynamicResource AppSidebarBg}">
+                    <StackPanel>
+                        <ui:SymbolIcon Symbol="Receipt24" FontSize="28"
+                                       Foreground="{DynamicResource AppAccentBrush}"
+                                       Margin="0,0,0,10"/>
+                        <TextBlock Text="{Binding TodaySales}" FontSize="32" FontWeight="Bold" TextAlignment="Center"
+                                   Foreground="{DynamicResource AppAccentBrush}"/>
+                        <TextBlock Text="Продаж сегодня" FontSize="12" Opacity="0.55" Margin="0,5,0,0" TextAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+
+                <Border Style="{StaticResource FormCardStyle}" Width="200" Margin="0,0,16,16"
+                        Background="{DynamicResource AppSidebarBg}">
+                    <StackPanel>
+                        <ui:SymbolIcon Symbol="Warning24" FontSize="28" Foreground="#C4784A"
+                                       Margin="0,0,0,10"/>
+                        <TextBlock Text="{Binding ExpiringCount}" FontSize="32" FontWeight="Bold" TextAlignment="Center"
+                                   Foreground="#C4784A"/>
+                        <TextBlock Text="Истекает (7 дней)" FontSize="12" Opacity="0.55" Margin="0,5,0,0" TextAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+
+            </WrapPanel>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

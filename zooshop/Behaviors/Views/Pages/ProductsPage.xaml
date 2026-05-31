@@ -1,0 +1,288 @@
+<Page
+    x:Class="ZooShop.Views.Pages.ProductsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+    Style="{StaticResource FadeInPage}"
+    Title="Товары">
+
+    <Grid Margin="24,16,24,24">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="320"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0" Margin="0,0,16,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0" Margin="0,0,0,12">
+                <TextBlock Text="Товары" Style="{StaticResource PageTitleStyle}"                           VerticalAlignment="Center"/>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <ui:Button Content="Добавить"
+                               Icon="{ui:SymbolIcon Add24}"
+                               Command="{Binding OpenEditCommand}"
+                               CommandParameter="{x:Null}"
+                               Appearance="Primary"
+                               Margin="0,0,8,0"
+                                                             Visibility="{Binding CanManage,
+                                   Converter={StaticResource BoolToVisibilityConverter}}"/>
+                    <ui:Button Content="Обновить"
+                               Icon="{ui:SymbolIcon ArrowClockwise24}"
+                               Command="{Binding LoadCommand}"
+                               Appearance="Secondary"/>
+                </StackPanel>
+            </Grid>
+
+            <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+                <ItemsControl ItemsSource="{Binding Products}"
+                              ItemTemplate="{StaticResource ProductCardTemplate}">
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <WrapPanel Orientation="Horizontal"/>
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                </ItemsControl>
+            </ScrollViewer>
+        </Grid>
+
+        <Grid Grid.Column="1">
+
+            <Border Style="{StaticResource FormCardStyle}" VerticalAlignment="Top"
+                    Visibility="{Binding IsEditFormVisible,
+                        Converter={StaticResource BoolToVisibilityConverter}}">
+                <StackPanel>
+                    <TextBlock FontSize="16" FontWeight="SemiBold" Margin="0,0,0,16" Foreground="Black">
+                        <TextBlock.Style>
+                            <Style TargetType="TextBlock">
+                                <Setter Property="Text" Value="Редактировать товар"/>
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding EditingProduct}" Value="{x:Null}">
+                                        <Setter Property="Text" Value="Новый товар"/>
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </TextBlock.Style>
+                    </TextBlock>
+
+                    <TextBlock Text="Название *" Style="{StaticResource FieldLabelStyle}" Foreground="Black"/>
+                    <ui:TextBox Text="{Binding EditName, UpdateSourceTrigger=PropertyChanged}"
+                                PlaceholderText="Название товара" Margin="0,0,0,12"/>
+
+                    <TextBlock Text="Категория" Style="{StaticResource FieldLabelStyle}" Foreground="Black"/>
+                    <ComboBox IsEditable="True"
+                              Text="{Binding EditCategory, UpdateSourceTrigger=PropertyChanged}"
+                              ItemsSource="{Binding Categories}"
+                              HorizontalAlignment="Stretch"
+                              Margin="0,0,0,12"/>
+
+                    <Grid Margin="0,0,0,12">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="8"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Grid.Column="0">
+                            <TextBlock Text="Цена (₽) *" Style="{StaticResource FieldLabelStyle}" Foreground="Black"/>
+                            <ui:NumberBox Value="{Binding EditPrice, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                          Minimum="0" SpinButtonPlacementMode="Compact"/>
+                        </StackPanel>
+                        <StackPanel Grid.Column="2">
+                            <TextBlock Text="Остаток (шт.)" Style="{StaticResource FieldLabelStyle}" Foreground="Black"/>
+                            <ui:NumberBox Value="{Binding EditStock, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                          Minimum="0" SpinButtonPlacementMode="Compact"/>
+                        </StackPanel>
+                    </Grid>
+
+                    <TextBlock Text="Срок годности" Style="{StaticResource FieldLabelStyle}"/>
+                    <DatePicker SelectedDate="{Binding EditExpiration}" Margin="0,0,0,12"/>
+
+                    <TextBlock Text="Путь к изображению" Style="{StaticResource FieldLabelStyle}"/>
+                    <Grid Margin="0,0,0,12">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="4"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <ui:TextBox Grid.Column="0"
+                                    Text="{Binding EditImagePath, UpdateSourceTrigger=PropertyChanged}"
+                                    PlaceholderText="C:\...\image.jpg или URL"/>
+                        <ui:Button Grid.Column="2"
+                                   Icon="{ui:SymbolIcon Folder24}"
+                                   ToolTip="Выбрать файл"
+                                   Click="BrowseImage_Click"/>
+                    </Grid>
+
+                    <ui:InfoBar IsOpen="{Binding EditError,
+                                    Converter={StaticResource NullOrEmptyToFalseConverter}}"
+                                Severity="Error" Title="{Binding EditError}"
+                                IsClosable="False" Margin="0,0,0,12"/>
+
+                    <StackPanel Orientation="Horizontal">
+                        <ui:Button Content="Сохранить" Appearance="Primary"                                   Icon="{ui:SymbolIcon Save24}"
+                                   Command="{Binding SaveCommand}" Margin="0,0,8,0"/>
+                        <ui:Button Content="Отмена"
+                                   Command="{Binding CancelEditCommand}"
+                                   Appearance="Secondary"/>
+                    </StackPanel>
+
+                    <Separator Opacity="0.2" Margin="0,12,0,12"
+                               Visibility="{Binding CanDelete,
+                                   Converter={StaticResource BoolToVisibilityConverter}}"/>
+                    <ui:Button Content="Удалить товар" Appearance="Danger"
+                               Icon="{ui:SymbolIcon Delete24}"
+                               Command="{Binding DeleteCommand}"
+                               HorizontalAlignment="Stretch"
+                               Visibility="{Binding CanDelete,
+                                   Converter={StaticResource BoolToVisibilityConverter}}"/>
+                </StackPanel>
+            </Border>
+
+            <Border Style="{StaticResource FormCardStyle}"
+                    Background="{DynamicResource AppSidebarBg}"
+                    VerticalAlignment="Stretch"
+                    Visibility="{Binding IsCartVisible,
+                        Converter={StaticResource BoolToVisibilityConverter}}">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid Grid.Row="0" Margin="0,0,0,12">
+                        <StackPanel Orientation="Horizontal">
+                            <ui:SymbolIcon Symbol="Cart24" FontSize="18"
+                                           VerticalAlignment="Center" Margin="0,0,8,0"/>
+                            <TextBlock Text="Корзина"
+                                       FontSize="16" FontWeight="SemiBold"
+                                       VerticalAlignment="Center"/>
+                        </StackPanel>
+                        <Border HorizontalAlignment="Right" VerticalAlignment="Center"
+                                Background="{DynamicResource AccentFillColorDefaultBrush}"
+                                CornerRadius="10" Padding="8,2"
+                                Visibility="{Binding IsCartNotEmpty,
+                                    Converter={StaticResource BoolToVisibilityConverter}}">
+                            <TextBlock FontSize="12" FontWeight="SemiBold">
+                                <Run Text="{Binding CartCount, Mode=OneWay}" Foreground="White"/>
+                                <Run Text=" шт." Foreground="White"/>
+                            </TextBlock>
+                        </Border>
+                    </Grid>
+
+                    <StackPanel Grid.Row="1" VerticalAlignment="Center"
+                                HorizontalAlignment="Center"
+                                Visibility="{Binding IsCartEmpty,
+                                    Converter={StaticResource BoolToVisibilityConverter}}">
+                        <ui:SymbolIcon Symbol="Cart24" FontSize="48" Opacity="0.2"
+                                       HorizontalAlignment="Center" Margin="0,0,0,8"/>
+                        <TextBlock Text="Кликните на карточку товара"
+                                   Opacity="0.5" FontSize="12" TextAlignment="Center"/>
+                        <TextBlock Text="чтобы добавить в корзину"
+                                   Opacity="0.5" FontSize="12" TextAlignment="Center"/>
+                    </StackPanel>
+
+                    <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto"
+                                  Visibility="{Binding IsCartNotEmpty,
+                                      Converter={StaticResource BoolToVisibilityConverter}}">
+                        <ItemsControl ItemsSource="{Binding Cart}">
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <Border Margin="0,0,0,8" Padding="10,8"
+                                            CornerRadius="8"
+                                            Background="{DynamicResource AppNavHoverBg}">
+                                        <Grid>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="Auto"/>
+                                                <RowDefinition Height="Auto"/>
+                                            </Grid.RowDefinitions>
+                                            <Grid Grid.Row="0">
+                                                <TextBlock Text="{Binding Product.Name}"
+                                                           FontWeight="SemiBold" FontSize="13"
+                                                           TextTrimming="CharacterEllipsis"/>
+                                                <TextBlock Text="{Binding TotalPrice, StringFormat='{}{0:N0} ₽'}"
+                                                           FontWeight="Bold" FontSize="13"
+                                                           HorizontalAlignment="Right"
+                                                           Foreground="{DynamicResource AccentTextFillColorPrimaryBrush}"/>
+                                            </Grid>
+                                            <Grid Grid.Row="1" Margin="0,6,0,0">
+                                                <StackPanel Orientation="Horizontal">
+                                                    <ui:Button Width="28" Height="28" Padding="0"
+                                                               Content="-" FontSize="16"
+                                                               Command="{Binding DataContext.DecrementItemCommand,
+                                                                   RelativeSource={RelativeSource AncestorType=Page}}"
+                                                               CommandParameter="{Binding}"/>
+                                                    <TextBlock Text="{Binding Quantity}"
+                                                               VerticalAlignment="Center"
+                                                               MinWidth="28" TextAlignment="Center"
+                                                               FontSize="13" Margin="4,0"/>
+                                                    <ui:Button Width="28" Height="28" Padding="0"
+                                                               Content="+" FontSize="16"
+                                                               Command="{Binding DataContext.IncrementItemCommand,
+                                                                   RelativeSource={RelativeSource AncestorType=Page}}"
+                                                               CommandParameter="{Binding}"/>
+                                                    <TextBlock Opacity="0.45" FontSize="11"
+                                                               VerticalAlignment="Center" Margin="8,0,0,0">
+                                                        <Run Text="×"/>
+                                                        <Run Text="{Binding Product.Price, Mode=OneWay, StringFormat='{}{0:N0} ₽'}"/>
+                                                    </TextBlock>
+                                                </StackPanel>
+                                                <ui:Button HorizontalAlignment="Right"
+                                                           Width="28" Height="28" Padding="0"
+                                                           Appearance="Secondary"
+                                                           Icon="{ui:SymbolIcon Dismiss16}"
+                                                           Command="{Binding DataContext.RemoveFromCartCommand,
+                                                               RelativeSource={RelativeSource AncestorType=Page}}"
+                                                           CommandParameter="{Binding}"/>
+                                            </Grid>
+                                        </Grid>
+                                    </Border>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </ScrollViewer>
+
+                    <StackPanel Grid.Row="2"
+                                Visibility="{Binding IsCartNotEmpty,
+                                    Converter={StaticResource BoolToVisibilityConverter}}">
+                        <Separator Opacity="0.2" Margin="0,8,0,12"/>
+                        <Grid Margin="0,0,0,12">
+                            <TextBlock Text="Итого:" FontSize="14" VerticalAlignment="Center"/>
+                            <TextBlock HorizontalAlignment="Right"
+                                       FontSize="20" FontWeight="Bold">
+                                <Run Text="{Binding CartTotal, Mode=OneWay, StringFormat='{}{0:N0}'}"/>
+                                <Run Text=" ₽"
+                                     Foreground="{DynamicResource AccentTextFillColorPrimaryBrush}"/>
+                            </TextBlock>
+                        </Grid>
+                        <ui:InfoBar IsOpen="{Binding CartError,
+                                        Converter={StaticResource NullOrEmptyToFalseConverter}}"
+                                    Severity="Error" Title="{Binding CartError}"
+                                    IsClosable="False" Margin="0,0,0,10"/>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="8"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+                            <ui:Button Grid.Column="0"
+                                       Content="Оформить продажу"
+                                       Appearance="Primary"
+                                       Icon="{ui:SymbolIcon Checkmark24}"
+                                       HorizontalAlignment="Stretch"
+                                       Command="{Binding CheckoutCommand}"/>
+                            <ui:Button Grid.Column="2"
+                                       Icon="{ui:SymbolIcon Delete24}"
+                                       ToolTip="Очистить корзину"
+                                       Command="{Binding ClearCartCommand}"
+                                       Appearance="Secondary"/>
+                        </Grid>
+                        
+                    </StackPanel>
+                </Grid>
+            </Border>
+        </Grid>
+    </Grid>
+</Page>

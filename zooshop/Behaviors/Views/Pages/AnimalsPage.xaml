@@ -1,0 +1,261 @@
+<Page
+    x:Class="ZooShop.Views.Pages.AnimalsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+    xmlns:conv="clr-namespace:ZooShop.Converters"
+    xmlns:b="clr-namespace:ZooShop.Behaviors"
+    Style="{StaticResource FadeInPage}"
+    Title="Животные">
+
+    <Page.Resources>
+        <conv:ImagePathConverter           x:Key="ImagePathConverter"/>
+        <conv:NullToVisibilityConverter    x:Key="NullToVisibilityConverter"/>
+        <conv:NotNullToVisibilityConverter x:Key="NotNullToVisibilityConverter"/>
+    </Page.Resources>
+
+    <Grid Margin="24,16,24,24">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="320"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0" Margin="0,0,16,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0" Margin="0,0,0,12">
+                <TextBlock Text="Животные" Style="{StaticResource PageTitleStyle}" VerticalAlignment="Center"/>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <ui:Button Content="Добавить" Icon="{ui:SymbolIcon Add24}"
+                               Command="{Binding OpenAddFormCommand}"
+                               Appearance="Primary"
+                               Margin="0,0,8,0"
+                               Visibility="{Binding CanManage,
+                                   Converter={StaticResource BoolToVisibilityConverter}}"/>
+                    <ui:Button Content="Обновить"
+                               Icon="{ui:SymbolIcon ArrowClockwise24}"
+                               Command="{Binding LoadCommand}"
+                               Appearance="Secondary"/>
+                </StackPanel>
+            </Grid>
+
+            <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+                <ItemsControl ItemsSource="{Binding Animals}">
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <WrapPanel Orientation="Horizontal"/>
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Border Margin="8" Width="200" CornerRadius="12"
+                                    Background="{DynamicResource AppSidebarBg}"
+                                    BorderBrush="{DynamicResource AppNavHoverBg}"
+                                    BorderThickness="1"
+                                    Cursor="Hand">
+                                <Border.Effect>
+                                    <DropShadowEffect Color="#0A000000" BlurRadius="10"
+                                                      ShadowDepth="1" Opacity="0.35"/>
+                                </Border.Effect>
+                                <Border.InputBindings>
+                                    <MouseBinding MouseAction="LeftClick"
+                                        Command="{Binding DataContext.StartSaleCommand,
+                                            RelativeSource={RelativeSource AncestorType=Page}}"
+                                        CommandParameter="{Binding}"/>
+                                </Border.InputBindings>
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="140"/>
+                                        <RowDefinition Height="Auto"/>
+                                    </Grid.RowDefinitions>
+
+                                    <!-- Фон секции фото -->
+                                    <Rectangle Grid.Row="0" RadiusX="12" RadiusY="12"
+                                               Fill="{DynamicResource AppNavHoverBg}"/>
+
+                                    <!-- Картинка через ImageBrush -->
+                                    <Rectangle Grid.Row="0" RadiusX="12" RadiusY="12"
+                                               Visibility="{Binding ImagePath,
+                                                   Converter={StaticResource NotNullToVisibilityConverter}}">
+                                        <Rectangle.Fill>
+                                            <ImageBrush ImageSource="{Binding ImagePath,
+                                                            Converter={StaticResource ImagePathConverter}}"
+                                                        Stretch="UniformToFill"/>
+                                        </Rectangle.Fill>
+                                    </Rectangle>
+
+                                    <!-- Placeholder -->
+                                    <StackPanel Grid.Row="0" VerticalAlignment="Center"
+                                                HorizontalAlignment="Center"
+                                                Visibility="{Binding ImagePath,
+                                                    Converter={StaticResource NullToVisibilityConverter}}">
+                                        <ui:SymbolIcon Symbol="AnimalCat24"
+                                                       FontSize="48" Opacity="0.2"
+                                                       HorizontalAlignment="Center"/>
+                                    </StackPanel>
+
+                                    <!-- Кнопка редактировать (только для менеджера/админа) -->
+                                    <ui:Button Grid.Row="0"
+                                               HorizontalAlignment="Right" VerticalAlignment="Top"
+                                               Margin="6" Width="28" Height="28" Padding="0"
+                                               Appearance="Secondary"
+                                               Icon="{ui:SymbolIcon Edit24}"
+                                               Command="{Binding DataContext.OpenEditFormCommand,
+                                                   RelativeSource={RelativeSource AncestorType=Page}}"
+                                               CommandParameter="{Binding}"
+                                               Visibility="{Binding DataContext.CanManage,
+                                                   RelativeSource={RelativeSource AncestorType=Page},
+                                                   Converter={StaticResource BoolToVisibilityConverter}}"/>
+
+                                    <StackPanel Grid.Row="1" Margin="12,10,12,14">
+                                        <TextBlock Text="{Binding DisplayName}"
+                                                   FontSize="14" FontWeight="SemiBold"
+                                                   TextTrimming="CharacterEllipsis"/>
+                                        <TextBlock Text="{Binding AgeDisplay}"
+                                                   FontSize="11" Opacity="0.6"
+                                                   Margin="0,2,0,0"/>
+                                        <TextBlock Text="{Binding HealthStatus}"
+                                                   FontSize="10" Opacity="0.5"
+                                                   TextTrimming="CharacterEllipsis"
+                                                   Margin="0,2,0,6"/>
+                                        <TextBlock FontSize="16" FontWeight="Bold">
+                                            <Run Text="{Binding Price, StringFormat='{}{0:N0}'}"/>
+                                            <Run Text=" ₽" Foreground="{DynamicResource AppAccentBrush}"/>
+                                        </TextBlock>
+                                    </StackPanel>
+                                </Grid>
+                            </Border>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </ScrollViewer>
+        </Grid>
+
+        <Grid Grid.Column="1">
+
+            <!-- Форма добавления / редактирования -->
+            <Border Style="{StaticResource FormCardStyle}" VerticalAlignment="Top"
+                    Visibility="{Binding IsAddFormVisible,
+                        Converter={StaticResource BoolToVisibilityConverter}}">
+                <StackPanel>
+                    <TextBlock Text="{Binding FormTitle}"
+                               FontSize="16" FontWeight="SemiBold" Margin="0,0,0,16"/>
+
+                    <TextBlock Text="Вид *" Style="{StaticResource FieldLabelStyle}"/>
+                    <ui:TextBox Text="{Binding EditSpecies, UpdateSourceTrigger=PropertyChanged}"
+                                PlaceholderText="Кошка, собака, попугай…"
+                                Margin="0,0,0,12"/>
+
+                    <TextBlock Text="Порода" Style="{StaticResource FieldLabelStyle}"/>
+                    <ui:TextBox Text="{Binding EditBreed, UpdateSourceTrigger=PropertyChanged}"
+                                PlaceholderText="Оставьте пустым если нет"
+                                Margin="0,0,0,12"/>
+
+                    <TextBlock Text="Возраст (месяцев) *" Style="{StaticResource FieldLabelStyle}"/>
+                    <ui:NumberBox Value="{Binding EditAgeMonths, Mode=TwoWay}"
+                                  Minimum="0" Maximum="300"
+                                  Margin="0,0,0,12"/>
+
+                    <TextBlock Text="Цена (₽) *" Style="{StaticResource FieldLabelStyle}"/>
+                    <ui:NumberBox Value="{Binding EditPrice, Mode=TwoWay}"
+                                  Minimum="0" Maximum="9999999"
+                                  Margin="0,0,0,12"/>
+
+                    <TextBlock Text="Состояние здоровья" Style="{StaticResource FieldLabelStyle}"/>
+                    <ui:TextBox Text="{Binding EditHealthStatus, UpdateSourceTrigger=PropertyChanged}"
+                                PlaceholderText="Здоров, вакцинирован…"
+                                Margin="0,0,0,12"/>
+
+                    <TextBlock Text="Путь к изображению" Style="{StaticResource FieldLabelStyle}"/>
+                    <Grid Margin="0,0,0,16">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="4"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <ui:TextBox Grid.Column="0"
+                                    Text="{Binding EditImagePath, UpdateSourceTrigger=PropertyChanged}"
+                                    PlaceholderText="Images\foto.jpg"/>
+                        <ui:Button Grid.Column="2"
+                                   Icon="{ui:SymbolIcon Folder24}"
+                                   ToolTip="Выбрать файл"
+                                   Click="BrowseImage_Click"/>
+                    </Grid>
+
+                    <ui:InfoBar IsOpen="{Binding AddError,
+                                    Converter={StaticResource NullOrEmptyToFalseConverter}}"
+                                Severity="Error"
+                                Title="{Binding AddError}"
+                                IsClosable="False"
+                                Margin="0,0,0,12"/>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,0">
+                        <ui:Button Content="Сохранить" Appearance="Primary"
+                                   Icon="{ui:SymbolIcon Save24}"
+                                   Command="{Binding SaveAnimalCommand}"
+                                   Margin="0,0,8,0"/>
+                        <ui:Button Content="Отмена"
+                                   Command="{Binding CancelAddCommand}"
+                                   Appearance="Secondary"/>
+                    </StackPanel>
+
+                    <Separator Opacity="0.2" Margin="0,12,0,12"
+                               Visibility="{Binding CanDeleteAnimal,
+                                   Converter={StaticResource BoolToVisibilityConverter}}"/>
+                    <ui:Button Content="Удалить животное" Appearance="Danger"
+                               Icon="{ui:SymbolIcon Delete24}"
+                               Command="{Binding DeleteAnimalCommand}"
+                               HorizontalAlignment="Stretch"
+                               Visibility="{Binding CanDeleteAnimal,
+                                   Converter={StaticResource BoolToVisibilityConverter}}"/>
+                </StackPanel>
+            </Border>
+
+            <!-- Форма продажи -->
+            <Border Style="{StaticResource FormCardStyle}" VerticalAlignment="Top"
+                    Visibility="{Binding IsSaleFormVisible,
+                        Converter={StaticResource BoolToVisibilityConverter}}">
+                <StackPanel>
+                    <TextBlock Text="Продажа животного"
+                               FontSize="16" FontWeight="SemiBold" Margin="0,0,0,4"/>
+                    <TextBlock Text="{Binding SelectedAnimal.DisplayName}"
+                               Style="{StaticResource SubtitleStyle}" Margin="0,0,0,12"/>
+
+                    <Separator Opacity="0.2" Margin="0,0,0,16"/>
+
+                    <TextBlock Text="ФИО нового владельца *" Style="{StaticResource FieldLabelStyle}"/>
+                    <ui:TextBox Text="{Binding OwnerName, UpdateSourceTrigger=PropertyChanged}"
+                                PlaceholderText="Фамилия Имя Отчество"
+                                Icon="{ui:SymbolIcon Person24}"
+                                Margin="0,0,0,12"/>
+
+                    <TextBlock Text="Номер телефона *" Style="{StaticResource FieldLabelStyle}"/>
+                    <ui:TextBox Text="{Binding OwnerPhone, UpdateSourceTrigger=PropertyChanged}"
+                                PlaceholderText="+7 (900) 123-45-67"
+                                Icon="{ui:SymbolIcon Phone24}"
+                                b:PhoneMaskBehavior.IsActive="True"
+                                Margin="0,0,0,16"/>
+
+                    <ui:InfoBar IsOpen="{Binding SaleError,
+                                    Converter={StaticResource NullOrEmptyToFalseConverter}}"
+                                Severity="Error"
+                                Title="{Binding SaleError}"
+                                IsClosable="False"
+                                Margin="0,0,0,12"/>
+
+                    <StackPanel Orientation="Horizontal">
+                        <ui:Button Content="Подтвердить продажу" Appearance="Primary"
+                                   Command="{Binding ConfirmSaleCommand}"
+                                   Margin="0,0,8,0"/>
+                        <ui:Button Content="Отмена"
+                                   Command="{Binding CancelSaleCommand}"
+                                   Appearance="Secondary"/>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </Grid>
+    </Grid>
+</Page>

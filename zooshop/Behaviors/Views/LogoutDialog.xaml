@@ -1,0 +1,59 @@
+<Window
+    x:Class="ZooShop.Views.LogoutDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+    Title="Выход"
+    Width="360" Height="200"
+    ResizeMode="NoResize"
+    WindowStartupLocation="CenterOwner"
+    ShowInTaskbar="False"
+    WindowStyle="ToolWindow">
+
+    <Border Padding="24,20">
+        <StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,16">
+                <Border Width="40" Height="40" CornerRadius="10"
+                        Background="#FFEBEE" Margin="0,0,14,0"
+                        VerticalAlignment="Top">
+                    <ui:SymbolIcon Symbol="ArrowExit20" FontSize="20" Foreground="#C62828"/>
+                </Border>
+                <StackPanel VerticalAlignment="Center">
+                    <TextBlock Text="Что вы хотите сделать?"
+                               FontSize="14" FontWeight="SemiBold" Margin="0,0,0,4"/>
+                    <TextBlock Text="Выберите действие для завершения сеанса."
+                               FontSize="12" Opacity="0.6" TextWrapping="Wrap" MaxWidth="240"/>
+                </StackPanel>
+            </StackPanel>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <ui:Button Grid.Column="0" Appearance="Secondary"
+                           Margin="0,0,6,0" HorizontalAlignment="Stretch"
+                           Click="SwitchUser_Click" ToolTip="Закрыть и открыть окно входа">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <ui:SymbolIcon Symbol="Person24" FontSize="13" Margin="0,0,6,0"/>
+                        <TextBlock Text="Сменить" FontSize="12" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </ui:Button>
+
+                <ui:Button Grid.Column="1" Appearance="Danger"
+                           Margin="0,0,6,0" HorizontalAlignment="Stretch"
+                           Click="ExitApp_Click" ToolTip="Полностью закрыть приложение">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <ui:SymbolIcon Symbol="Power24" FontSize="13" Margin="0,0,6,0"/>
+                        <TextBlock Text="Выйти" FontSize="12" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </ui:Button>
+
+                <Button Grid.Column="2" Width="80" FontSize="12"
+                        Click="Cancel_Click" IsCancel="True">Отмена</Button>
+            </Grid>
+        </StackPanel>
+    </Border>
+</Window>
